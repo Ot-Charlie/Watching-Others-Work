@@ -73,6 +73,7 @@ p {
   text-align: center;
   padding-right: 20px;
   margin-top: 12px;
+  color: hsl(246, 25%, 77%);
 }
 .trial :hover {
   box-shadow: 3px 10px 4px rgba(59, 250, 56, 0.3);
