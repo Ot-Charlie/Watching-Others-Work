@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: url("images/bg-intro-desktop.png"), hsl(0, 100%, 74%);
+  font-family: "Poppins", sans-serif;
+}
+.position {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.try {
+   padding: 20px;
+   margin-left: 697px;
+   margin-right: 190px;
+   
+  text-align: center;
+ background-color: rgb(96, 85, 165);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.3);
+}
+
+.thereafter {
+  color: hsl(246, 25%, 77%);
+}
+.learn {
+  margin-top: 400px;
+  color: white;
+  margin-left: 200px;
+  width: 41%;
+ margin-bottom: -390px;
+}
+
+button {
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-left: 12px;
+  border-radius: 10px;
+  width: 87%;
+}
+.terms {
+  color: hsl(0, 100%, 74%);
+}
+form {
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 20px;
+ margin-left: 700px;
+ margin-right: 190px;
+  
+  
+  box-shadow: 3px 10px 4px rgba(0, 0, 0, 0.3);
+}
+input {
+  
+  background-color: white;
+  margin: 10px;
+  padding: 15px;
+  
+  width: 75%;
+  border-radius: 10px;
+  padding-left: 50px;
+}
+
+p {
+  text-align: center;
+  padding-right: 20px;
+  margin-top: 12px;
+}
+.trial :hover {
+  box-shadow: 3px 10px 4px rgba(59, 250, 56, 0.3);
+  border: none;
+}
+@media (max-width: 400px) {
+    .try {
+    margin-left: 60px;
+   
+    text-align: center;
+    font-size: 20px;
+    margin-top: 70px;
+    width: 325px;
+    padding: 40px;
+    padding-right:10px;
+    border-radius: 20px;
+  }
+  .learn {
+    text-align: center;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    width: 400px;
+    padding-right: 30px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h5 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 100;
+   
+  }
+  form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+   margin-left: 50px;
+   width: 370px;
+   border-radius: 20px;
+    box-shadow: 3px 10px 4px rgba(0, 0, 0, 0.3);
+  }
+  button{
+    width:345px;
+  }
+
+}
